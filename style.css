@@ -150,6 +150,9 @@ span.seven{
     }
 }
 @media (max-width: 770px) {
+    html{
+        font-size: 70%;
+    }
     .word{
         top: 25%;
     }
