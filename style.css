@@ -154,8 +154,9 @@ span.four{
         font-size: 50%;
     }
     .word{
-        font-size: 100px;
-        top: 25%;
+        padding: 30px;
+        font-size: 80px;
+        top: 40%;
     }
     .number{
         margin: 5%;
@@ -164,7 +165,7 @@ span.four{
         font-size: 100px;
     }
     span.three{
-        top: 55.1%;
+        top: 55.15%;
         right: 77%;
     }
     .ball{
@@ -201,12 +202,12 @@ span.four{
         }
         100% {
             top: -100%;
-            right: 77%;
+            right: 71%;
         }
     }
     @keyframes slide_6 {
         0% {
-            top: 55.1%;
+            top: 55.15%;
         }
         100% {
             top: -100%;
