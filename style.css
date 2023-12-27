@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: none;
+    outline: 1px solid;
     -webkit-transition: all 100ms ease-in;
     transition: all 100ms ease-in;
 }
@@ -44,14 +44,14 @@ html{
     font-weight: 700;
     color: #7a8fe8;
 }
-span.six{
+span.three{
     position: absolute;
     top: 50%;
     right: 50%;
     margin-right: -200px;
     animation: slide_6 5s ease-in-out 5s forwards;
 }
-span.seven{
+span.four{
     position: absolute;
     right: 0%;
     margin-right: -200px;
@@ -151,10 +151,65 @@ span.seven{
 }
 @media (max-width: 770px) {
     html{
-        font-size: 70%;
+        font-size: 50%;
     }
     .word{
+        font-size: 100px;
         top: 25%;
     }
-    
+    .number{
+        margin: 5%;
+    }
+    .number>span{
+        font-size: 100px;
+    }
+    span.three{
+        top: 55.1%;
+        right: 77%;
+    }
+    .ball{
+        top: 53%;
+    }
+    @keyframes slide_7 {
+        0% {
+            right: 0%;
+        }
+        66.6666% {
+            right: 77%;
+            margin-right: -260px;
+        }
+        90% {
+            right: 77%;
+            margin-right: -260px;
+        }
+        100% {
+            right: 77%;
+        }
+    }
+    @keyframes slideball {
+        0% {
+            right: 0%;
+        }
+        40% {
+            right: 77%;
+            margin-right: -290px;
+        }
+        50% {
+            right: 77%;
+            margin-right: -220px;
+            top: 53%;
+        }
+        100% {
+            top: -100%;
+            right: 77%;
+        }
+    }
+    @keyframes slide_6 {
+        0% {
+            top: 55.1%;
+        }
+        100% {
+            top: -100%;
+        }
+    }
 }
