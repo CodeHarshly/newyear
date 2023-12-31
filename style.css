@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 1px solid white;
+    outline: none;
     -webkit-transition: all 100ms ease-in;
     transition: all 100ms ease-in;
 }
@@ -250,12 +250,13 @@ span.four{
  .contact form .input-box1 {
     width: 40%;
     height: 30px;
+    outline: 1px solid white;
  }
  
  .contact form textarea{
     box-sizing: border-box;
-      overflow-y: hidden; /* Hide vertical scrollbar */
       resize: none;
+      outline: 1px solid white;
  }
  .btn {
     display: inline-block;
@@ -280,9 +281,33 @@ span.four{
  .contact form .btn:hover{
     transition: 500ms ease-in-out;
     background-color: #ff5000;
-    
     color: black;
  }
+
+ .contact-me h2{
+    font-size: 3.2rem;
+    margin: 3rem 0;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.copyright{
+    color: white;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.contact-me a{
+    margin: 0;
+    color: transparent;
+    text-decoration: none;
+}
+.btn>img{
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    background: white;
+}
+
 @keyframes glow {
     0%{
         opacity: 0.5;
@@ -371,9 +396,10 @@ span.four{
     }
     .contact form{
         width: 90%;
-        
     }
-
+    .btn {
+        padding: .6rem 2rem;
+      }
     @keyframes slide_7 {
         0% {
             right: 0%;
