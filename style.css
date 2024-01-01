@@ -258,6 +258,7 @@ span.four{
  }
  
  .contact form .input-box1 {
+    padding: 1.5rem 1rem;
     width: 45%;
     height: 30px;
     outline: 1px solid white;
